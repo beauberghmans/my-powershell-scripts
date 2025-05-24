@@ -6,7 +6,7 @@
     Author:Beau Berghmans
 #>
 #region Connection to Remote Server
-$Creds = Get-Credential -Credential "omain\user"
+$Creds = Get-Credential -Credential "Domain\User"
 $Domain = "10.10.10.1"
 $NewSession = New-PSSession -ComputerName $Domain -Credential $Creds
 #endregion
