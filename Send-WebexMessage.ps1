@@ -10,8 +10,8 @@ param (
 )
 
 # Webex Bot Token and Room ID
-$WebexToken = "OGRiNjBlNzgtMjI5Zi00ODkxLTk5OTQtMTUzOTcyNWY4ODI5ZjZjYmU4ZTItODdl_P0A1_71b6b34c-abff-4407-ac50-5e62323aed80"
-$RoomId = "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLXdlc3QtMl9yL1JPT00vOTUyMmRhYTAtMzU1Zi0xMWYwLTg3ZGUtMTc3MWRmNWVlMDc3"
+$WebexToken = "XXXX"
+$RoomId = "XXXX"
 
 # Function to send message to Webex
 function Send-WebexMessage {
