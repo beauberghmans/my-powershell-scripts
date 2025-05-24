@@ -58,4 +58,4 @@ If you’re also learning PowerShell, here are some great resources I recommend:
 
 ---
 
-Thank you for visiting! ⭐ If you find anything useful here, feel free to star the repo.
+Thank you very much for visiting! ⭐ If you find anything useful here, feel free to star the repo.
