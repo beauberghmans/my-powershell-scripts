@@ -1,3 +1,7 @@
+<#
+    .DESCRIPTION
+    Author:Beau Berghmans
+#>
 # Modules
 Import-Module ActiveDirectory
 

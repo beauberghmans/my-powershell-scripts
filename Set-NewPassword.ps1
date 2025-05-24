@@ -1,3 +1,7 @@
+<#
+    .DESCRIPTION
+    Author:Beau Berghmans
+#>
 #Variables
 $remoteComputer = "ADSRV01"
 $creds = Get-Credential -Credential "PersonalLab191\administrator"

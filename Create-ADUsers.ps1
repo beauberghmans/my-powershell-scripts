@@ -1,3 +1,8 @@
+.description
+<#
+    .DESCRIPTION
+    Author:Beau Berghmans
+#>
 #region Connection to Remote Server
 $Creds = Get-Credential -Credential "domain\user"
 $Domain = "10.10.10.1"
@@ -31,7 +36,3 @@ foreach ($user in $ListOfUsers){
 
     New-ADuser @UserProps
 }
-
-
-
-

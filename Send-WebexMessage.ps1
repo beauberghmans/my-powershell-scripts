@@ -1,3 +1,7 @@
+<#
+    .DESCRIPTION
+    Author:Beau Berghmans
+#>
 param (
     [string]$ServiceName = "Spooler"
 )
