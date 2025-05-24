@@ -1,4 +1,7 @@
 <#
+    .SYNOPSIS
+    A script to reset the password of an AD user.
+
     .DESCRIPTION
     Author:Beau Berghmans
 #>

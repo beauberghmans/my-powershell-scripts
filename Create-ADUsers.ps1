@@ -1,5 +1,7 @@
-.description
 <#
+    .SYNOPSIS
+    A script to create AD users from a CSV file.
+
     .DESCRIPTION
     Author:Beau Berghmans
 #>

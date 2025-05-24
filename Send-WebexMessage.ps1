@@ -1,4 +1,7 @@
 <#
+    .SYNOPSIS
+    A script to send a system report to a Cisco Webex room.
+
     .DESCRIPTION
     Author:Beau Berghmans
 #>

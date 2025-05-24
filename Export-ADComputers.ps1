@@ -1,4 +1,7 @@
 <#
+    .SYNOPSIS
+    A script to export AD computers to a CSV file.
+
     .DESCRIPTION
     Author:Beau Berghmans
 #>
