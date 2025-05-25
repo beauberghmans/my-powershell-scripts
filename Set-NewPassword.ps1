@@ -36,3 +36,6 @@ Set-ADAccountPassword -Identity "$adUser" -NewPassword (ConvertTo-SecureString "
 
 Write-Host "The new password is:" -ForegroundColor Blue
 Write-Host "$password" -ForegroundColor Green
+
+# Close PS session
+Remove-PSSession $newSession
