@@ -36,7 +36,7 @@ $filteredDevices = $windowsDevices | Where-Object {
     $_.DisplayName -notlike ("*server*")
 }
 
-<# # Define parameters for the new security group
+# Define parameters for the new security group
 $groupParams = @{
     DisplayName         = "Windows 10 Devices"
     MailEnabled         = $false
@@ -55,7 +55,7 @@ foreach ($device in $filteredDevices) {
     }
     # Add device to the group we created earlier.
     New-MgGroupMemberByRef -GroupId $group.Id -BodyParameter $body
-} #>
+}
 
 # Output the group creation result
 Write-Host "Group created with displayname: ""$($group.DisplayName)"" and ID: ""$($group.Id)"". Following devices have been added:"
