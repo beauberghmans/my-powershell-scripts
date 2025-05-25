@@ -28,6 +28,7 @@ function Get-RandomPassword {
 $password = Get-RandomPassword 8
 
 # Connect to remote computer
+if (Get-Module -Name ActiveDirectory) { Remove-Module ActiveDirectory -Force } # Remove lingering proxy commands
 $newSession = New-PSSession -ComputerName $remoteComputer -Credential $creds
 Import-Module -PSSession $newSession -Name ActiveDirectory
 
