@@ -9,13 +9,13 @@
 # Parameters
 param (
     [Parameter(Mandatory=$true)]
-    [string]$userToResetInAD, # Fill in samAccountName of user whos password you want to reset
+    [string]$adUser, # Fill in samAccountName of user whos password you want to reset
     [Parameter(Mandatory=$true)]
-    [string]$authenticatedUser # User account with admin rights in AD
+    [string]$adminAccount # User account with admin rights in AD
 )
 
 $remoteComputer = "ADSRV01"
-$creds = Get-Credential -Credential "$authenticatedUser"
+$creds = Get-Credential -Credential "$adminAccount"
 
 # Generate a random password
 function Get-RandomPassword {
@@ -32,7 +32,7 @@ $newSession = New-PSSession -ComputerName $remoteComputer -Credential $creds
 Import-Module -PSSession $newSession -Name ActiveDirectory
 
 # Set new password
-Set-ADAccountPassword -Identity "$userToResetInAD" -NewPassword (ConvertTo-SecureString "$password" -AsPlainText -Force) -Reset 
+Set-ADAccountPassword -Identity "$adUser" -NewPassword (ConvertTo-SecureString "$password" -AsPlainText -Force) -Reset 
 
 Write-Host "The new password is:" -ForegroundColor Blue
 Write-Host "$password" -ForegroundColor Green
