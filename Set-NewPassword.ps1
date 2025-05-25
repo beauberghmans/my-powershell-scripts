@@ -7,7 +7,7 @@
 #>
 
 # Parameters
-Param {
+param {
     [Parameter(Mandatory=$true)]
     [string]$userToResetInAD # Fill in samAccountName of user whos password you want to reset
     [Parameter(Mandatory=$true)]
