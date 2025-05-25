@@ -7,12 +7,12 @@
 #>
 
 # Parameters
-param {
+param (
     [Parameter(Mandatory=$true)]
-    [string]$userToResetInAD # Fill in samAccountName of user whos password you want to reset
+    [string]$userToResetInAD, # Fill in samAccountName of user whos password you want to reset
     [Parameter(Mandatory=$true)]
     [string]$authenticatedUser # User account with admin rights in AD
-}
+)
 
 $remoteComputer = "ADSRV01"
 $creds = Get-Credential -Credential "$authenticatedUser"
