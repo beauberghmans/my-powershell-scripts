@@ -63,3 +63,8 @@ Write-Host "Group created with displayname: ""$($group.DisplayName)"" and ID: ""
 foreach($device in $filteredDevices) {
     Write-Host "- $($device.DisplayName)"
 }
+
+# Disconnect the Microsoft Graph session
+Disconnect-MgGraph
+
+Write-Host "Disconnected from Microsoft Graph."
