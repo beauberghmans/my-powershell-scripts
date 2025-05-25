@@ -7,8 +7,12 @@
 #>
 #Variables
 $remoteComputer = "ADSRV01"
-$creds = Get-Credential -Credential "Domain\Administrator"
-$user = "xxx.xxx" #Fill in samAccountName of user whos password you want to reset
+$creds = Get-Credential -Credential "PersonalLab191\Administrator"
+
+Param {
+    [Parameter(Mandatory=$true)]
+    [string]$user #Fill in samAccountName of user whos password you want to reset
+}
 
 #Generate a random password
 function Get-RandomPassword {
