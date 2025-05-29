@@ -24,7 +24,8 @@ These scripts are mainly for **practice, learning, and experimentation** — the
 
 ---
 
-## 💡 Why I Built This 
+## 💡 Why I Built This
+
 I created this repository to:
 
 ✅ Practice real-world PowerShell scripting
@@ -35,17 +36,20 @@ I created this repository to:
 ---
 
 ## 📌 Disclaimer
+
 These scripts are provided as-is and are intended for educational purposes.
 Use them at your own risk — always test in a safe environment before applying to live systems.
 
 ---
 
 ## 📬 Feedback & Contributions
+
 While this is mainly a personal learning repo, if you spot improvements or want to suggest ideas, feel free to open an issue or submit a pull request.
 
 ---
 
 ## 📖 Resources
+
 If you’re also learning PowerShell, here are some great resources I recommend:
 
 [Microsoft PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/)
