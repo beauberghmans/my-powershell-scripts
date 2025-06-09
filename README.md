@@ -37,7 +37,7 @@ I created this repository to:
 
 ## 📌 Disclaimer
 
-These scripts are provided as-is and are intended for educational purposes.
+These scripts are provided as-is and are intended for educational purposes!
 Use them at your own risk — always test in a safe environment before applying to live systems.
 
 ---
