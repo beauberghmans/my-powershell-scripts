@@ -28,10 +28,10 @@ These scripts are mainly for **practice, learning, and experimentation** — the
 
 I created this repository to:
 
-✅ Practice real-world PowerShell scripting  
-✅ Document my learning journey  
-✅ Build a personal library of reusable code snippets  
-✅ Share my progress and potentially help others learning PowerShell  
+- ✅ Practice real-world PowerShell scripting
+- ✅ Document my learning journey
+- ✅ Build a personal library of reusable code snippets
+- ✅ Share my progress and potentially help others learning PowerShell
 
 ---
 
@@ -52,10 +52,10 @@ While this is mainly a personal learning repo, if you spot improvements or want 
 
 If you’re also learning PowerShell, here are some great resources I recommend:
 
-[Microsoft PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/)  
-[PowerShell Gallery](https://www.powershellgallery.com/)  
-[PowerShell.org](https://powershell.org/)  
-[The PowerShell Reddit Community](https://www.reddit.com/r/PowerShell/)  
+- [Microsoft PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/)
+- [PowerShell Gallery](https://www.powershellgallery.com/)
+- [PowerShell.org](https://powershell.org/)
+- [The PowerShell Reddit Community](https://www.reddit.com/r/PowerShell/)
 
 ---
 
