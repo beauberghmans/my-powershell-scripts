@@ -28,10 +28,10 @@ These scripts are mainly for **practice, learning, and experimentation** — the
 
 I created this repository to:
 
-✅ Practice real-world PowerShell scripting
-✅ Document my learning journey
-✅ Build a personal library of reusable code snippets
-✅ Share my progress and potentially help others learning PowerShell
+✅ Practice real-world PowerShell scripting  
+✅ Document my learning journey  
+✅ Build a personal library of reusable code snippets  
+✅ Share my progress and potentially help others learning PowerShell  
 
 ---
 
